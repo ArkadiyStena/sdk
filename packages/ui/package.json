@@ -5,6 +5,7 @@
     "start": "vite --host",
     "dev": "vite",
     "test": "vitest run",
+    "generate:api-spec": "node ./scripts/generate-api-spec.mjs",
     "build": "tsc --noEmit --emitDeclarationOnly false && vite build && rollup -c rollup.config.mjs && vite build -c vite.cdn-config.ts"
   },
   "repository": {

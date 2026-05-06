@@ -1,0 +1,8 @@
+{
+  "tsconfig": "./tsconfig.json",
+  "plugin": ["typedoc-plugin-markdown"],
+  "out": "./.api-spec-tmp",
+  "readme": "none",
+  "router": "module",
+  "entryFileName": "API-SPEC"
+}

@@ -3,6 +3,7 @@
   "version": "2.4.4",
   "scripts": {
     "dev": "vite",
+    "generate:api-spec": "node ./scripts/generate-api-spec.mjs",
     "build": "tsc && vite build"
   },
   "repository": {

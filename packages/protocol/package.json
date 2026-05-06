@@ -19,6 +19,7 @@
   "author": "tonconnect",
   "license": "Apache-2.0",
   "scripts": {
+    "generate:api-spec": "node ./scripts/generate-api-spec.mjs",
     "build": "rimraf types-dist && rimraf lib && rollup -c rollup.config.mjs && tsc && api-extractor run && rimraf types-dist",
     "test": "jest"
   },
